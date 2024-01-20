@@ -1,0 +1,25 @@
+{
+  "name": "resume-builder-backend",
+  "version": "1.0.0",
+  "description": "AI powered resume builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alozie-Miracle/ai-resume-builder.git"
+  },
+  "author": "Alozie Miracle Patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alozie-Miracle/ai-resume-builder/issues"
+  },
+  "homepage": "https://github.com/Alozie-Miracle/ai-resume-builder#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0",
+    "openai": "^4.24.7",
+    "pdf-lib": "^1.17.1"
+  }
+}
