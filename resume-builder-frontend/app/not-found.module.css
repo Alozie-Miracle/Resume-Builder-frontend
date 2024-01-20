@@ -1,9 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .error__box {
-  @apply h-screen w-screen flex flex-row m-auto;
+  @apply bg-[#DBE2EF] h-screen w-screen flex flex-row m-auto;
 }
 
 .error__container {
@@ -27,10 +23,14 @@
 }
 
 .error_btn {
-  @apply h-auto bg-[#3F72AF] text-[#FFF] border border-[#3F72AF]
+  @apply h-auto bg-[#3F72AF] text-[#DBE2EF] border border-[#3F72AF]
   py-1 px-2 rounded-md hover:bg-[#DBE2EF] hover:text-[#3F72AF] hover:border-[#3F72AF];
 }
 
-.error__icon {
+.error__icon_container {
   @apply bg-[#3F72AF] text-[#DBE2EF] h-full w-1/2 flex justify-center items-center;
+}
+
+.error__icon {
+  @apply w-1/2;
 }
