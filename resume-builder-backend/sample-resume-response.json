@@ -1,0 +1,52 @@
+{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "123-456-7890",
+    "summary": "Experienced software developer with a passion for creating efficient and scalable solutions.",
+    "education": [
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "university": "University of XYZ",
+            "year": 2015
+        },
+        {
+            "degree": "Master of Science in Software Engineering",
+            "university": "ABC University",
+            "year": 2017
+        }
+    ],
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "company": "XYZ Corporation",
+            "location": "New York, NY",
+            "startDate": "2017-01-01",
+            "endDate": "2020-12-31",
+            "responsibilities": [
+                "Developed and maintained web applications using JavaScript and React.",
+                "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+                "Implemented automated testing to ensure code quality and reliability."
+            ]
+        },
+        {
+            "title": "Senior Software Engineer",
+            "company": "ABC Technologies",
+            "location": "San Francisco, CA",
+            "startDate": "2021-01-01",
+            "endDate": null,
+            "responsibilities": [
+                "Leading a team of developers in designing and implementing complex software systems.",
+                "Mentoring junior developers and conducting code reviews.",
+                "Researching and implementing new technologies to improve software development processes."
+            ]
+        }
+    ],
+    "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Git"
+    ]
+}
